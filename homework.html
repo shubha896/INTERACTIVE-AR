@@ -1,0 +1,70 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Layout</title>
+    <link rel="stylesheet" href="homework.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box yellow"></div>
+        <div class="box pink"></div>
+        <div class="box purple"></div>
+        <div class="box orange"></div>
+        <div class="box lightgreen"></div>
+        <div class="box lightpink"></div>
+        <div class="box violet"></div>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Grid</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(3, 100px);
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+        }
+        .yellow { background-color: yellow; }
+        .cyan { background-color: cyan; }
+        .green { background-color: green; }
+        .red { background-color: red; }
+        .purple { background-color: purple; }
+        .pink { background-color: pink; }
+        .blue { background-color: blue; }
+        .orange { background-color: orange; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box yellow"></div>
+        <div class="box green"></div>
+        <div class="box red"></div>
+        <div class="box cyan"></div>
+        <div class="box purple"></div>
+        <div class="box pink"></div>
+        <div class="box red"></div>
+        <div class="box yellow"></div>
+        <div class="box orange"></div>
+    </div>
+</body>
+</html>
